@@ -1,19 +1,22 @@
 {
     "layers" : [
         {
-            "label": "INPUT",
-            "bias": [-10, 30],
-            "weights": [[20, -20], [20, -20]]
+            "type": "INPUT",
+            "total_neurons": 2
         },
         {
-            "label": "HIDDEN",
+            "type": "HIDDEN",
+            "total_neurons": 2,
             "activation_func": "SIGMOID",
-            "bias": [-30],
-            "weights": [[20, 20]]
+            "weight": [[20, 20], [-20, -20]],
+            "bias": [-10, 30]
         },
         {
-            "label": "OUTPUT",
-            "activation_func": "SIGMOID"
+            "type": "OUTPUT",
+            "total_neurons": 1,
+            "activation_func": "SIGMOID",
+            "weight": [[20, 20]],
+            "bias": [-30]
         }
     ]
 }
