@@ -1,0 +1,19 @@
+{
+    "layers" : [
+        {
+            "label": "INPUT",
+            "bias": [-10, 30],
+            "weights": [[20, -20], [20, -20]]
+        },
+        {
+            "label": "HIDDEN",
+            "activation_func": "SIGMOID",
+            "bias": [-30],
+            "weights": [[20, 20]]
+        },
+        {
+            "label": "OUTPUT",
+            "activation_func": "SIGMOID"
+        }
+    ]
+}
