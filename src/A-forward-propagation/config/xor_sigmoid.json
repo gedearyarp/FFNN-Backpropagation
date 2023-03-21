@@ -3,7 +3,17 @@
         {
             "type": "INPUT",
             "total_neurons": 2,
-            "neurons": []
+            "activation_func": "",
+            "neurons": [
+                {
+                    "weights": [],
+                    "bias": 1
+                },
+                {
+                    "weights": [],
+                    "bias": 1
+                }
+            ]
         },
         {
             "type": "HIDDEN",
@@ -11,11 +21,11 @@
             "activation_func": "SIGMOID",
             "neurons": [
                 {
-                    "weight": [-10, 20, 20],
+                    "weights": [-10, 20, 20],
                     "bias": 1
                 },
                 {
-                    "weight": [30, -20, -20],
+                    "weights": [30, -20, -20],
                     "bias": 1
                 }
             ]
@@ -26,7 +36,7 @@
             "activation_func": "SIGMOID",
             "neurons": [
                 {
-                    "weight": [-30, 20, 20],
+                    "weights": [-30, 20, 20],
                     "bias": 1
                 }
             ]
