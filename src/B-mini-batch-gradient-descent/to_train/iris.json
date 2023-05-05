@@ -354,7 +354,7 @@
     "learning_parameters": {
       "learning_rate": 5e-3,
       "batch_size": 2,
-      "max_iteration": 20000,
+      "max_iteration": 2000,
       "error_threshold": 0.1
     }
   }
